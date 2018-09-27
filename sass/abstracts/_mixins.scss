@@ -1,0 +1,23 @@
+@mixin section {
+    color: $color-white;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $color-gray;
+    height: 100px;     
+}
+
+@mixin arrow {
+    border: 1px solid $color-gray;
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: $unit;
+    float: right; 
+    cursor: pointer;
+    transition: all .2s ease-out;
+}

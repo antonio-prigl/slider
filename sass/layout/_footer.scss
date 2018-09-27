@@ -1,0 +1,11 @@
+.footer {
+    &__section {   
+        @include section;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+
+        &--padded {
+            padding-left: calc(8.333% + 1rem);
+        }
+    }
+}

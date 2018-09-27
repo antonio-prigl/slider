@@ -1,0 +1,10 @@
+.title {
+    &--primary {
+        font-size: 30px;
+        letter-spacing: -1px;
+        line-height: calc(#{$unit} * 7);
+        font-weight: 700;
+        color: $color-primary;
+        margin-bottom: calc(#{$unit} * 4);
+    }
+}

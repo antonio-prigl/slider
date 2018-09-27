@@ -1,0 +1,11 @@
+.header {   
+    &__section {   
+        @include section;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+
+        &--padded {
+            padding-left: calc(8.333% + 1rem);
+        }
+    }
+}
