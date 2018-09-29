@@ -1,3 +1,5 @@
+import "./sass/main.scss";
+
 $(document).ready(function() {
     $(".slider__arrow--right").click(function() {
         $(".slider__row img:last").after($(".slider__row img:first"));

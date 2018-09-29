@@ -5,7 +5,9 @@
         border-top-right-radius: 5px;
 
         &--padded {
-            padding-left: calc(8.333% + 1rem);
-        }
+            p {
+                padding-left: calc(#{$unit} * 12);
+            } 
+        }  
     }
 }
